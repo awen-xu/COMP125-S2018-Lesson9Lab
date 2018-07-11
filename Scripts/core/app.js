@@ -33,8 +33,6 @@
     graphics = new createjs.Graphics();
     line = new createjs.Shape(graphics);
 
-
-
     Main();
   }
 
@@ -51,12 +49,9 @@
 
     ButtonSection.appendChild(clickMeButton);
 
-    
-
     clickMeButton.addEventListener("click", function(){
       firstH1.textContent = "clicked";
     });
-
 
     console.log(`Distance: ${objects.Vector.distance(vec1, vec2)}`);
     console.log(`Vec1 + Vec2: ${objects.Vector.add(vec1,vec2).toString()}`);
@@ -69,7 +64,6 @@
 
     stage.addChild(line);
 
-    
   }
 
   window.addEventListener("load", Start);

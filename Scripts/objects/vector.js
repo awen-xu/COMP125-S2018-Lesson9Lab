@@ -14,16 +14,18 @@
         return Math.sqrt(Math.pow(vec2.x-vec1.x, 2)+Math.pow(vec2.y-vec1.y, 2));
     }
 
-
     Vector.right = function(){
         return new Vector(1,0);
     };
+
     Vector.left = function(){
         return new Vector(-1,0);
     };
+
     Vector.up = function(){
         return new Vector(0,1);
     };
+    
     Vector.down = function(){
         return new Vector(0,-1);
     };
